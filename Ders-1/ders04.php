@@ -17,14 +17,14 @@
 	<form method="GET" action="#" >
 		<input type="text" name="ad">
 		<input type="text" name="soyad">
-		<input type="submit" name="gonder">
+		<input type="submit" >
 	</form>
 
 
 
 	<?php 
-	$gelenIsim		=	$_GET["ad"];
-	$gelenSoyad		=	$_GET['soyad'];
+	$gelenIsim		=	@$_GET["ad"];
+	$gelenSoyad		=	@$_GET['soyad'];
 
 	echo "Fomdan Gelenler <br>";
 	echo "$gelenIsim $gelenSoyad ";

@@ -23,8 +23,8 @@
 
 
 	<?php 
-	$gelenIsim	=$_POST["ad"];
-	$gelenSoyad	=$_POST['soyad'];
+	$gelenIsim	=@$_POST["ad"];
+	$gelenSoyad	=@$_POST['soyad'];
 
 	echo "Fomdan Gelenler <br>";
 	echo "$gelenIsim $gelenSoyad ";

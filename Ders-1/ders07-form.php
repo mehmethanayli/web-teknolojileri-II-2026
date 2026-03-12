@@ -11,7 +11,7 @@
 <body>
 
 	<?php 
-	$gelenDosya	=$_FILES["Dosya"];
+	$gelenDosya	=@$_FILES["Dosya"];
 
 	echo "<pre>";
 	print_r($gelenDosya);
