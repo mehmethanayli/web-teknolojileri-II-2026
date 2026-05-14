@@ -55,7 +55,7 @@ endswitch;
 
 echo "<br>";
 
-$deger=10;
+$deger=50;
 
 switch ($deger) {
 	case ($deger<10):
@@ -82,28 +82,28 @@ $ay="Ocak";
 
 switch ($ay) {
 	case $ay=="Ocak":
-	echo "$ay 1. Aydır.";
+	echo "$ay 1. Aydır.<br>";
 	break;
 	
 	case $ay=="Şubat":
-	echo "$ay 2. Aydır.";
+	echo "$ay 2. Aydır.<br>";
 	break;
 
 	case $ay=="Mart":
-	echo "$ay 3. Aydır.";
+	echo "$ay 3. Aydır.<br>";
 	break;
 
 	case $ay=="Nisan":
-	echo "$ay 4. Aydır.";
+	echo "$ay 4. Aydır.<br>";
 	break;
 
 	case $ay=="Mayıs":
-	echo "$ay 5. Aydır.";
+	echo "$ay 5. Aydır.<br>";
 	break;
 
 
 	default:
-	echo "Bu ayların dışında....";
+	echo "Bu ayların dışında....<br>";
 	break;
 }
 
